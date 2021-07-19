@@ -1,0 +1,151 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+body {
+  font-size: 24px;
+  font-family: "Roboto",sans-serif;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 80px;
+  line-height: 1.2;
+}
+h2{
+  font-size: 64px;
+  line-height: 84px;
+}
+/* color */
+.bg-primary{
+  background-color: black;
+}
+
+.font-primary{
+  color: white;
+}
+
+.font-white{
+  color: white;
+}
+/* spacing */
+.py-56{
+  padding: 56px 0;
+}
+.py-64{
+  padding: 64px 0;
+}
+.pt-28{
+  padding-top: 28px;
+}
+.pt-56{
+  padding-top: 56px;
+}
+
+.pb-12{
+  padding-bottom: 12px;
+}
+.pb-16{
+  padding-bottom: 16px;
+}
+.pb-20{
+  padding-bottom: 20px;
+}
+.pb-32{
+  padding-bottom: 32px;
+}
+.pb-40{
+  padding-bottom: 40px;
+}
+.pb-48{
+  padding-bottom: 48px;
+}
+.pb-56{
+  padding-bottom: 56px;
+}
+.pb-68{
+  padding-bottom: 68px;
+}
+.pb-96{
+  padding-bottom: 144px;
+}
+.pb-160{
+  padding-bottom: 160px;
+}
+.d-flex{
+  display: flex;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.justify-content-around{
+  justify-content:space-around;
+}
+.align-content-around{
+  align-content: space-around;
+}
+.align-content-between{
+  align-content: space-between;
+}
+.align-content-center{
+  align-content:center;
+}
+.align-items-center{
+  align-items: center;
+}
+.flex-col{
+  flex-direction: column;
+}
+
+/* content */
+.container{
+  width: 1200px; 
+  margin: 0 auto;
+  text-align: center; 
+}
+
+.header-container{
+  width: 304px;
+}
+.header{
+  height: 958px;
+  background-image: url("./images/banner.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+.header-subtitle{
+  font-size: 24px;
+}
+.header-img-list{
+  width: 288px;
+  margin: 0 auto;
+}
+
+hr{
+  width: 384px;
+}
+.about-content>li::before{
+  content: "";
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  margin-right: 16px;
+  display: inline-block;
+  background-color: #891818;
+}
+.brand-list{
+  width: 1200px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.work-list>li{
+  padding-bottom: 48px;
+}
